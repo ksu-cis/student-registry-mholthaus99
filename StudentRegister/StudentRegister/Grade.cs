@@ -19,4 +19,5 @@ namespace StudentRegister
         XF,
         W
     }
+
 }
