@@ -38,10 +38,10 @@
                             <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
-                                    <TextBlock Text="{Binding Path=Course}"></TextBlock>
-                                    <TextBlock Text="{Binding Path=Semester}"></TextBlock>
-                                    <TextBlock Text="{Binding Path=CreditHours}"></TextBlock>
-                                    <TextBlock Text="{Binding Path=Grade}"></TextBlock>
+                                    <TextBlock Text="{Binding Path=Course}" Margin="0,0,3,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=Semester}"  Margin="0,0,3,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=CreditHours}"  Margin="0,0,3,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=Grade}"  Margin="0,0,3,0"></TextBlock>
                                 </StackPanel>
                             </DataTemplate>
                             </ListBox.ItemTemplate>
